@@ -7,32 +7,30 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-img {
-    width: 150px;
+.first_line img {
+    width: 150px; 
 }
 .first_container {
     border: 1px solid #737373;
-    /* margin-bottom: 10px; */
     padding: 80px;
     background-image: url(./images/background.jpg),linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
     background-repeat: no-repeat;
 }
-/* .first_line{
-     margin-top: 10px;
-} */
- .first_line a {
+.first_line{
+    padding-top: 10px;
+}
+.first_line a {
     text-decoration: none;
     font-weight: 400;
     line-height: normal;
-    border-radius: 4px solid #fff;
-    float: right;
+    border: 1px solid #e50914;
+    border-radius: 5px;
+    float: right; 
     font-size:20px;
     margin: 20px;
-    padding: 7px 17px;
+    padding: 7px 17px; 
     background-color:#e50914;
     color: #fff;
-    
-
 }
 
 .story {
@@ -227,7 +225,7 @@ input {
     padding: 27px;
     background: #e50914;
 }
-
+        /* Footer */
 .container_footer{
     background: #737373;
     margin-top: 8px;
@@ -235,35 +233,41 @@ input {
 .footer{
     border: 1px solid #333;
     display: flex;
+    justify-content: center;
     padding: 100px;
     margin: 7px,5px;
     gap: 50px;  
     background: #222;
-
- 
-    }
-.question{
-    /* display: flex; */
-    color: #737373;      
 }
-.a_question{
-    margin-bottom: 60px;
-    padding-left: 80px;
-}
-.first_list li  {
+.footer li a{
+    text-decoration: none;
     list-style-type: none;
-    margin-top: 15px;
-    
+}
+.first_list li{
+    list-style-type: none;
+}
+.first_list a{
+    line-height: 1.6;
+}
+.list li{
+    text-decoration: none;
+    margin-top: 30px;
+    line-height: 0.8; 
 }
 .first_list a {
     color: #737373;
 }
-.last_list li {
+.list li{
     list-style-type: none;
-    margin-top: 15px;
 }
-.last_list a {
+.list a{
     color: #737373;
 }
+.question{
+    margin-bottom: 35px;
 
+}
+.nigeria {
+    margin-top: 35px;
+} 
   
